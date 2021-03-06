@@ -14,7 +14,7 @@ imgui_includes = [
     'backends'
 ]
 
-imgui_lib = library('imgui',
+imgui_lib = static_library('imgui',
     sources : [imgui_sources, imgui_backends],
     include_directories : imgui_includes
 )

@@ -14,6 +14,7 @@ include_dirs = [
 
 lib_names = [
     'glfw3',
+    'glew',
     'opengl'
 ]
 
