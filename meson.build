@@ -37,5 +37,3 @@ executable('imgui-meson-app',
     include_directories : include_dirs,
     link_with : [functions_lib, imgui_lib]
 )
-
-message('Project built! :)')
