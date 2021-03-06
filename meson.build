@@ -4,10 +4,13 @@ project('imgui-meson-app', 'cpp')
 subdir('src/functions')
 subdir('libs/imgui')
 
-
 src_files = ['src/main.cpp']
-include_dirs = ['src/functions']
 
+include_dirs = [
+    'src/functions',
+    'libs/imgui',
+    'libs/imgui/backends'
+]
 
 lib_names = [
     'glfw3',
@@ -30,7 +33,7 @@ endforeach
 
 executable('imgui-meson-app',
     sources : src_files,
-    dependencies : [deps, imgui_dep],
+    dependencies : deps,
     include_directories : include_dirs,
     link_with : [functions_lib, imgui_lib]
 )

@@ -11,12 +11,10 @@ imgui_backends = ['backends/imgui_impl_glfw.cpp', 'backends/imgui_impl_opengl3.c
 
 imgui_includes = [
     '.',
-    '.backends'
+    'backends'
 ]
 
 imgui_lib = library('imgui',
     sources : [imgui_sources, imgui_backends],
     include_directories : imgui_includes
     )
-
-imgui_dep = declare_dependency(include : imgui_includes, link_with : imgui_lib)
