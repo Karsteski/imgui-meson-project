@@ -2,39 +2,35 @@ project('imgui-meson-app', 'cpp')
 
 # Internal libraries 
 subdir('src/functions')
-subdir('libs/imgui')
+
+imgui_dep = dependency('imgui', fallback : ['imgui', 'imgui_dep'])
+gl_dep = dependency('opengl')
+glfw3_dep = dependency('glfw3')
 
 src_files = ['src/main.cpp']
 
 include_dirs = [
     'src/functions',
-    'libs/imgui',
-    'libs/imgui/backends'
 ]
 
 lib_names = [
-    'glfw3',
     'glew',
-    'opengl'
 ]
 
-
 deps = []
-
 
 foreach lib : lib_names
     temp = dependency(lib, required : false)
     if not temp.found()
-        temp = cpp_compiler.find_library(lib)
+        message('Dependency not found!')
     endif
 
     deps += temp
 endforeach
 
-
 executable('imgui-meson-app',
     sources : src_files,
-    dependencies : deps,
+    dependencies : [deps, gl_dep, glfw3_dep, imgui_dep],
     include_directories : include_dirs,
-    link_with : [functions_lib, imgui_lib]
+    link_with : functions_lib
 )

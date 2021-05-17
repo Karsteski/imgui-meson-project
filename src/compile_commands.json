@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Isrc/functions/libfunctions.so.p -Isrc/functions -I../src/functions -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ src/functions/libfunctions.so.p/functions.cpp.o -MF src/functions/libfunctions.so.p/functions.cpp.o.d -o src/functions/libfunctions.so.p/functions.cpp.o -c ../src/functions/functions.cpp",
+    "file": "../src/functions/functions.cpp",
+    "output": "src/functions/libfunctions.so.p/functions.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/imgui_demo.cpp.o -MF libs/imgui/libimgui.a.p/imgui_demo.cpp.o.d -o libs/imgui/libimgui.a.p/imgui_demo.cpp.o -c ../libs/imgui/imgui_demo.cpp",
+    "file": "../libs/imgui/imgui_demo.cpp",
+    "output": "libs/imgui/libimgui.a.p/imgui_demo.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/imgui_draw.cpp.o -MF libs/imgui/libimgui.a.p/imgui_draw.cpp.o.d -o libs/imgui/libimgui.a.p/imgui_draw.cpp.o -c ../libs/imgui/imgui_draw.cpp",
+    "file": "../libs/imgui/imgui_draw.cpp",
+    "output": "libs/imgui/libimgui.a.p/imgui_draw.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/imgui_tables.cpp.o -MF libs/imgui/libimgui.a.p/imgui_tables.cpp.o.d -o libs/imgui/libimgui.a.p/imgui_tables.cpp.o -c ../libs/imgui/imgui_tables.cpp",
+    "file": "../libs/imgui/imgui_tables.cpp",
+    "output": "libs/imgui/libimgui.a.p/imgui_tables.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/imgui_widgets.cpp.o -MF libs/imgui/libimgui.a.p/imgui_widgets.cpp.o.d -o libs/imgui/libimgui.a.p/imgui_widgets.cpp.o -c ../libs/imgui/imgui_widgets.cpp",
+    "file": "../libs/imgui/imgui_widgets.cpp",
+    "output": "libs/imgui/libimgui.a.p/imgui_widgets.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/imgui.cpp.o -MF libs/imgui/libimgui.a.p/imgui.cpp.o.d -o libs/imgui/libimgui.a.p/imgui.cpp.o -c ../libs/imgui/imgui.cpp",
+    "file": "../libs/imgui/imgui.cpp",
+    "output": "libs/imgui/libimgui.a.p/imgui.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/backends_imgui_impl_glfw.cpp.o -MF libs/imgui/libimgui.a.p/backends_imgui_impl_glfw.cpp.o.d -o libs/imgui/libimgui.a.p/backends_imgui_impl_glfw.cpp.o -c ../libs/imgui/backends/imgui_impl_glfw.cpp",
+    "file": "../libs/imgui/backends/imgui_impl_glfw.cpp",
+    "output": "libs/imgui/libimgui.a.p/backends_imgui_impl_glfw.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Ilibs/imgui/libimgui.a.p -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -fPIC -MD -MQ libs/imgui/libimgui.a.p/backends_imgui_impl_opengl3.cpp.o -MF libs/imgui/libimgui.a.p/backends_imgui_impl_opengl3.cpp.o.d -o libs/imgui/libimgui.a.p/backends_imgui_impl_opengl3.cpp.o -c ../libs/imgui/backends/imgui_impl_opengl3.cpp",
+    "file": "../libs/imgui/backends/imgui_impl_opengl3.cpp",
+    "output": "libs/imgui/libimgui.a.p/backends_imgui_impl_opengl3.cpp.o"
+  },
+  {
+    "directory": "/home/karsteski/Repos/imgui-meson-project/builddir",
+    "command": "c++ -Iimgui-meson-app.p -I. -I.. -Isrc/functions -I../src/functions -Ilibs/imgui -I../libs/imgui -I../libs/imgui/backends -I/vcpkg/installed/x64-linux/lib/pkgconfig/../../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -MD -MQ imgui-meson-app.p/src_main.cpp.o -MF imgui-meson-app.p/src_main.cpp.o.d -o imgui-meson-app.p/src_main.cpp.o -c ../src/main.cpp",
+    "file": "../src/main.cpp",
+    "output": "imgui-meson-app.p/src_main.cpp.o"
+  }
+]
